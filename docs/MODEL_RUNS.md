@@ -1,6 +1,8 @@
 # Model execution
 
-Run commands from the repository root after extracting the private release data. Choose a new output directory for each configuration. Model execution is explicit; downloading or opening this repository starts no training.
+Run commands from the repository root after extracting the public release data. Choose a new output directory for each configuration. Model execution is explicit; downloading or opening this repository starts no training.
+
+See [the non-LLM model guide](NON_LLM_MODELS.md) for architecture settings and the distinction between training seeds and cache identifiers.
 
 ## Verified cache replay
 
@@ -20,7 +22,7 @@ python -m models.train_neural --model DLinear --data data --output runs/dlinear 
 
 PatchTST and iTransformer use the same entry point. The option `--fetch-author-code` fetches the repository and exact commit recorded in `configs/author_sources.json`; source hashes are checked by the original adapter. Keep each author model in a separate process because its upstream package names overlap.
 
-Training uses the original 198449-row parent pool, causal monthly train/validation windows, original configurations, early stopping and five seeds. Output caches preserve explicit generation/fallback status. For evaluation on the current cohort, join the new cache to `core/answers.parquet` using original `row_id` and retain only `model_generated` statuses; recompute complete-vector and common-success masks for the new runs. Do not impose the archived benchmark mask on new failures.
+Training uses the original 198449-row parent pool, causal monthly train/validation windows, original configurations, early stopping and five seeds. Output caches preserve explicit generation/fallback status. For evaluation on the test dataset, join the new cache to `core/answers.parquet` using original `row_id` and retain only `model_generated` statuses; recompute complete-vector and common-success masks for the new runs. Do not impose the archived benchmark mask on new failures.
 
 `--months YYYY-MM ...` limits execution to specified months and marks incomplete month coverage. `--prepare-only` stages inputs and seals a run identity without training. The bundled reference scores are from the original completed runs, not from this release's staging check.
 

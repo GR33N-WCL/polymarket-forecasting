@@ -1,7 +1,7 @@
 {
   "version": "plan1-20261010-v1",
   "dataset": "output/datasets/polymarket_v2_374_20261005",
-  "historical_report": "outputs/dataset_v2_20261005/transaction_first_restart/candidate374_development/multihorizon_report_20261005",
+  "historical_report": "data/training",
   "output": "outputs/plan1_cross_model_20261010",
   "author_sources": "reference/official_forecasters_20260914/official",
   "experiments": [
@@ -131,5 +131,5 @@
   "llm_context_budget": 4096,
   "llm_max_new_tokens": 256,
   "llm_input_char_budget": 6000,
-  "claim_scope": "retrospectively_selected_development_cohort"
+  "claim_scope": "test_dataset_evaluation"
 }

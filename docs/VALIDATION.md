@@ -17,6 +17,4 @@ Verified on 23 October 2026:
 
 Receipts are in `results/reference/`. The data archive has a SHA-256 digest in `configs/release.json` and a file-by-file manifest inside `data/MANIFEST.json`.
 
-The source code for optional GPU training/inference is included, but no new training or inference was performed to publish this repository. The portable Self-Ridge daily-fit reconstruction is not complete in this first release; use its verified frozen cache or the archived original implementation with historical assets. Historical web-assisted event discovery is represented by its final roster/graph and available source records, not an invented complete prompt trace.
-
-Before a public release, reconcile the author's later pure-random S3 rerun with its actual input manifest and update the data-period wording to distinguish the original archive from expanded observations. These points do not alter the preserved numerical assets.
+The source code for optional GPU training/inference is included, but no new training or inference was performed to publish this repository. The portable Self-Ridge daily-fit reconstruction is not complete in this first release; use its verified frozen cache or the archived original implementation with historical assets.

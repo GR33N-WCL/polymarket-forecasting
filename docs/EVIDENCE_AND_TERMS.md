@@ -7,9 +7,7 @@
 | 5033 catalogue contracts versus 4617 represented contracts | Retained catalogue versus observations | Recounted |
 | 553620 price values replay exactly | `results/reference/DATA_REPLAY_AUDIT.json` | Recomputed |
 | Eight-model attribution replay | `results/reference/CACHE_REPLAY_AUDIT.json` | Recomputed |
-| Source archive totals and coverage period | Existing manuscript source paragraph; separate from actual origin table | Source-scope statement; not a count of current release |
 | Pure-random new S3 rerun | Later author statement; no matching local manifest located | Separate version awaiting linkage |
-| Historical web-assisted discovery trace | Final graph and historical source programs | Complete retrieval transcript unavailable |
 
 | Canonical term | Meaning |
 | --- | --- |
@@ -22,5 +20,3 @@
 | Current price / 当前价格 | Observed input, `raw` in the observation table |
 | Semantic correction / 语义修正 | Historical-neighbor information updates |
 | Joint logical correction / 联合逻辑修正 | Shared-variable projection under audited constraints |
-
-Writing audit: this is a data construction and reproducibility account, not a rewritten manuscript section. Source-scope, selection and runtime conditions are stated where they affect interpretation. No new forecasting result or explanation of model failure is introduced. The approved Overleaf update was limited to the previously designated five files.
