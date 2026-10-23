@@ -1,6 +1,10 @@
-# Relational Contract Price Forecasting
+# Polymarket Forecasting
 
-Private reproducibility repository for **Beyond Isolated Markets: Relational Contract Price Forecasting in Prediction Markets**.
+Dataset and reproducibility code accompanying **Beyond Isolated Markets: Relational Contract Price Forecasting in Prediction Markets**.
+
+**Paper status: submitted; under review.** This repository provides the dataset and supporting model execution and evaluation code for the submitted paper.
+
+**论文配套数据集（已投稿）**：本仓库提供上述论文使用的数据集，以及配套的模型运行与评价代码。
 
 This repository separates the current 303-event evaluation cohort from its historical training and context pool. It contains the numerical correction code, runnable model entry points, archived source provenance, and a versioned data asset. It does not start remote jobs or call a language-model API.
 
@@ -9,12 +13,12 @@ This repository separates the current 303-event evaluation cohort from its histo
 Python 3.10 or later is required. The numerical replay was checked locally with Python 3.12.
 
 ```bash
-git clone https://github.com/GR33N-WCL/relational-contract-forecasting.git
-cd relational-contract-forecasting
+git clone https://github.com/GR33N-WCL/polymarket-forecasting.git
+cd polymarket-forecasting
 python -m venv .venv
 # Activate .venv using your shell's usual command.
 python -m pip install -r requirements.txt
-gh release download v0.1.0 --repo GR33N-WCL/relational-contract-forecasting --pattern 'dataset-v0.1.0.tar.gz'
+gh release download v0.1.0 --repo GR33N-WCL/polymarket-forecasting --pattern 'dataset-v0.1.0.tar.gz'
 python -m rcf.unpack dataset-v0.1.0.tar.gz --output .
 python -m rcf.verify --data data
 python -m rcf.construct --data data --output runs/data_replay.json
@@ -22,7 +26,7 @@ python -m rcf.replay --data data --output runs/attribution8
 python -m unittest discover -s tests -v
 ```
 
-The release and repository are private; `gh` must be authenticated with an account that has access. `rcf.unpack` checks the archive checksum against the committed release manifest before extraction and refuses to overwrite existing files.
+The dataset is available from the public [v0.1.0 release](https://github.com/GR33N-WCL/polymarket-forecasting/releases/tag/v0.1.0). `rcf.unpack` checks the archive checksum against the committed release manifest before extraction and refuses to overwrite existing files.
 
 `rcf.replay` reproduces **24 model/seed units × 8 horizons × 6 variants = 1,152 metric rows** on the eight non-LLM models' common support. It verifies the MSE, MAE and improvement/harm counts against the archived reference results. It computes seed means of losses, not ensembles of predictions. The main paper's S1, S2 and S3 tables use different paired supports; this replay must not be relabelled as their complete reconstruction.
 
@@ -71,4 +75,4 @@ The S3 asset is the locally verified archived sample. Its manifest preserves pre
 
 ## Access and rights
 
-This is a private preparation repository. No new redistribution licence is assigned to third-party market data or model code by this release. Author implementations are fetched from pinned upstream repositories; retain their original licences and model conditions. The original research repository and source data are unchanged.
+This is the public dataset and reproducibility repository for the submitted paper. No new redistribution licence is assigned to third-party market data or model code by this release. Author implementations are fetched from pinned upstream repositories; retain their original licences and model conditions. The original research repository and source data are unchanged.
