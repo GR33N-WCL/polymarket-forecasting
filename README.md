@@ -4,8 +4,6 @@ Dataset and reproducibility code accompanying **Beyond Isolated Markets: Relatio
 
 **Paper status: submitted; under review.** This repository provides the dataset and supporting model execution and evaluation code for the submitted paper.
 
-**论文配套数据集（已投稿）**：本仓库提供上述论文使用的数据集，以及配套的模型运行与评价代码。
-
 This repository separates the current 303-event evaluation cohort from its historical training and context pool. It contains the numerical correction code, runnable model entry points, archived source provenance, and a versioned data asset. It does not start remote jobs or call a language-model API.
 
 ## Quick start
@@ -66,12 +64,6 @@ The source archive period reported in the manuscript (2022-11-21 to 2026-05-04) 
 See [MODEL_RUNS.md](docs/MODEL_RUNS.md). Fresh training/inference writes to new run directories. No pretrained model weights are distributed here. Access to gated model weights remains governed by their original providers.
 
 The current release has **numerically verified cache replay**. Training entry points, data staging and source compilation were checked; the release process did not retrain all models or run new GPU inference. Self-Ridge's daily-fit reconstruction remains in the original source archive; its frozen predictions are fully included and replayable. This distinction is recorded in [VALIDATION.md](docs/VALIDATION.md).
-
-## Version and interpretation
-
-The 303-event roster is derived from a retrospectively examined development cohort. Removed groups and inherited source anomalies are documented. Frozen targets and scoring identities are retained. Failed forecasts are excluded using explicit success masks and complete logical-vector rules.
-
-The S3 asset is the locally verified archived sample. Its manifest preserves pre-existing successes, whole-bundle closure and randomized completion. A later author-reported pure-random rerun on another machine has not been linked to an input manifest in this repository. These cohorts must not be silently substituted for one another.
 
 ## Access and rights
 
