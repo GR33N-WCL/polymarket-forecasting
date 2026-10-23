@@ -1,0 +1,18 @@
+{
+  "qwen1_8": {
+    "repo_id": "Qwen/Qwen-1_8B-Chat",
+    "revision": "modelscope:v1.0.0:44623b287a2bfe430f06a17b9fff2de13456518ae2e931cd2567d90533c1becf"
+  },
+  "qwen7": {
+    "repo_id": "Qwen/Qwen-7B-Chat",
+    "revision": "218aa3240fd5a5d1e80bb6c47d5d774361913706"
+  },
+  "llama7": {
+    "repo_id": "meta-llama/Llama-2-7b-chat-hf",
+    "revision": "modelscope:v1.0.5:2cb62f19fbd3b37838580187b98e0e8bce615fc32cba0b405bf697aa7f2e5698"
+  },
+  "mistral7": {
+    "repo_id": "mistralai/Mistral-7B-Instruct-v0.1",
+    "revision": "9ab9e76e2b09f9f29ea2d56aa5bd139e4445c59e"
+  }
+}

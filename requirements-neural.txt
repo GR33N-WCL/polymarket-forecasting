@@ -1,0 +1,4 @@
+-r requirements.txt
+torch>=2.4
+einops>=0.7
+scikit-learn>=1.4

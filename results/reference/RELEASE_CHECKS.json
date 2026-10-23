@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "python_files_parsed": 45,
+  "credential_pattern_matches": 0,
+  "scope": "selected text/source files; explicit allowlist export; no server login scripts or API configuration exported",
+  "unit_tests": 3,
+  "cache_units": 24,
+  "data_files": 455
+}

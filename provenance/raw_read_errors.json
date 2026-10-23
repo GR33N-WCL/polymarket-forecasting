@@ -1,0 +1,1002 @@
+[
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00022.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "97906dbb1d6ecabc5df4fbbc184a6a00dcd9f37a3233ad6919095905cb59c5e3",
+    "source_bytes": 10733784,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00027.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "ab5e29d212823713e9eb4b840bc6bea7288145075a9b2403166e319c544743a2",
+    "source_bytes": 10622136,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00037.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_overlap",
+    "source_sha256": "765dd18a833f372eec01dbe0b3ca83b5b2f344fb4390132a13605a2196d53999",
+    "source_bytes": 14706917,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00040.parquet",
+    "error": "OSError('ZSTD decompression failed: Src size is incorrect')",
+    "group": "chain_overlap",
+    "source_sha256": "c72844ba422a93a86ccb8e27777001b55ff38e6da557ba4d676d9d6e8ce983c3",
+    "source_bytes": 14980802,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00045.parquet",
+    "error": "OSError('Received invalid number of bytes (corrupt data page?)')",
+    "group": "chain_overlap",
+    "source_sha256": "fbd595a3f3827aa3f9fd54068ad777e57f9c154bd04a4a13f6c96e761af8af6f",
+    "source_bytes": 6841364,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00058.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "be8fdc7f78cc75ac78e2c326cf6b2cdd702fc1ec1acb0e33df3d2fca0b4e15c6",
+    "source_bytes": 4226543,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00073.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "67d200523367222a350e6807bab5636947a70d98011ea7fa88f6668bae58a8cd",
+    "source_bytes": 3963990,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00074.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "77c549a462a429fa8dd52abca133811d8ba9433eee2c2770459a4eeb0fb12b02",
+    "source_bytes": 3812765,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00142.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "0f73942a25de22725b4ec67e20078896fbe524ea3a80f161a7bbbbd9f902d71c",
+    "source_bytes": 1868548,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00167.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "48d6defd0e360e871808aa45156cf2955478ea9e307c9ebb1d06afd767104842",
+    "source_bytes": 2191025,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00174.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "16ca8f9d58c453158524fbaf4c89f97fd7b814b4eac42d75e01cfe0f14c130cd",
+    "source_bytes": 2443074,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00176.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "24ef96d356aa7c6d951c111b4846c03b7622ef343b9467644a937a479c0c5fc3",
+    "source_bytes": 2477090,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00179.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "0a79360da32963f7e070183bb510086d761edd0bc1bc2319715c7549a85d348c",
+    "source_bytes": 2412441,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00184.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "0c9a7937d7fb6171f1b20e15da9c645ce0093fea34970157b17a6f89aa95a416",
+    "source_bytes": 2311719,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00185.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "730bf5747dd41e9ccefa84f546676fb61c3fc4aee837f07bd7804907f7754e55",
+    "source_bytes": 2468319,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00188.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "bec60090641fb6ae916a07ee9114e9519c239ff80e2c91ad9363b257dce90346",
+    "source_bytes": 2158928,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00192.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "6faa16f796e933c70adceeb521edece4b028249523b042af5ade00237a6366fe",
+    "source_bytes": 2063159,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00193.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "4e69dcb73c1cce6526eb10b293a5a6a7cbf31a8eb668c555e498b6a66d05bc8d",
+    "source_bytes": 1017903,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00194.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "fd3b314dcbe716221959a12d48ebeb2f431a2a190c37f53983b727fd6697bfe1",
+    "source_bytes": 1453242,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00198.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_overlap",
+    "source_sha256": "c17a403fbdc15850493c7bd6c55cbadc2e9908e9239b44f90e43de1990e0dba2",
+    "source_bytes": 1585476,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00224.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "85994d0381f5d5e5a0861323e38d499a392b3638bde76f684de35061cb252316",
+    "source_bytes": 1647315,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00225.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "08aff66aa578672637578254f6b7a97b54a3916729186edeb859df958e990659",
+    "source_bytes": 1610071,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00228.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "78646ad424ff1c17326d66c0404d7aef9a39f36b2bd3807894ee1064f2166167",
+    "source_bytes": 1592712,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00235.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "cdf07585ed2e74c13bf60f574725e190d467a2570eb612541e93811059e2a4f8",
+    "source_bytes": 1664923,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00236.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "a815e5d4e2ec85059e0caf23af9fdfba02b4aaf7cb3ae4d234bd928d71392909",
+    "source_bytes": 1495785,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00237.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "91e02080a3763713fdf244f28b4ac3b3f59a8d76ef54bc8543f0cc3ac68009b1",
+    "source_bytes": 1042998,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00238.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: TProtocolException: Invalid data\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "6416d712ac45bb8ec33a222df260caf5865213558c9acc96ddd721c3b796e2ec",
+    "source_bytes": 1668920,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00259.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "8f6c22fdb873b5ff4c8c3865f01db005236ec5689dbd9308d56bba7405bf45f6",
+    "source_bytes": 1571395,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00268.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "94deec1cec439c639e7ad5b188a4df0a80ea5f4793561f36f25e7999e38c03be",
+    "source_bytes": 1253897,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00269.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "0124c7a7b033d5dadb7113cceccc1060442ec69b176d3241117141d91ecf874b",
+    "source_bytes": 516299,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00270.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "fa030eab99d95d9eba05065e57cc92cd0e0a0a3b12142b4aed7c1ebe0f868e44",
+    "source_bytes": 1299129,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00271.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "30b13d003abfcc9353ec2e052a81910d848f5591fc787b21d365fbc1cab8dbbf",
+    "source_bytes": 1346575,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00282.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "23b930ef0199ad845c141860bb7da2da4e3a4e39b618b6aa9f033dafc3c06035",
+    "source_bytes": 1136003,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00284.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0e\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "067bc1e5ca094d73b8f9a4a53d6db1e97a115c54c9740d444b2e6e5f74781484",
+    "source_bytes": 1091657,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00295.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "c02f768e1a0a7419acb10093ce429386cf9dd1941de99adb3deb99023a1098bd",
+    "source_bytes": 1317764,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00296.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "e44ea506362500890b77c58da12d2f0d8493ac07e02e020418b46a9ea6d2cbc1",
+    "source_bytes": 1252353,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00300.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "310e07d874b4b328f4490fbd16102c68b0ff8e02f7142b4b311bdbd75602eacb",
+    "source_bytes": 1306970,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00301.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "f7f7006cfac1da86aa03efad490d551ede01f1b76bffea437b858e81149ebcb7",
+    "source_bytes": 1213126,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00302.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "35df446dad19fd6cb45e12ad15c185e289f6b9aad52eb9c1a9d377979e8d2259",
+    "source_bytes": 1171050,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00303.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "d66976f84b93c9dfd55dc80ed91e3189a08e2c3cf067f766f11b3ab62f9b8bf1",
+    "source_bytes": 1197880,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00311.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "4637619853e49d5fb82b0ae3894444a684af08437f5b6c6f517020d6f70950a9",
+    "source_bytes": 1030945,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00312.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "839115c6cda67df7f4053d38b9cf7ec8d21b9051734b6edd885e07a73adb7770",
+    "source_bytes": 1037126,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00315.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "641f03ae349311b68b24896d4aed1f0bd6e410b73dd7db02e78247bfc9c6da78",
+    "source_bytes": 1110742,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00316.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: Variable-length int over 10 bytes.\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "1ac60312e7e36e44b9550b5ae5534a2acc083cffee9dea3808a6d50a292c0826",
+    "source_bytes": 1219606,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00323.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "21257a1388fff5fb54b0939ffeb79e24b0bd052b8bb1dd51f7276638286dc541",
+    "source_bytes": 583439,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00324.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "7147c0295f9b2732422f156440ac55a338f35a95d32d46cbbc2afe9455999445",
+    "source_bytes": 451111,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00326.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0e\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "d82278629fe80c93d00b40d1e3ed782144c2b5aa296e9fca24c39f695ef1b167",
+    "source_bytes": 505902,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00328.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "6ef3ccaf948686e8113b2e74ea3f2d4d9fc240332f46e05cd3ac52b11f9913c3",
+    "source_bytes": 498543,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00329.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "40877f2920762b54d6b936fa2e4160ac036e0db02e75b655de62e40554370baa",
+    "source_bytes": 541940,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00330.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "c42625eaa2a09fce9020fc8d3eef861ff04c6f6ca11d88968d547ce808fc360f",
+    "source_bytes": 491485,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00331.parquet",
+    "error": "OSError('ZSTD decompression failed: Src size is incorrect')",
+    "group": "chain_overlap",
+    "source_sha256": "3a1cac6c1e51ac03f74d1562f1eeacc3abe00c16a1d8cd1aee2ba595e85a9844",
+    "source_bytes": 515765,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00342.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "27b7d315428a61e3cdd3ba695d26f05dc4b9052c6a72f332b7cb92505aecf89f",
+    "source_bytes": 640514,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00343.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "bacee5fb774b819162a3d47ebabaa7b149906dace6dbe643af3bbf2742257c17",
+    "source_bytes": 594691,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00344.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "0ffe8f21f1dbfb251a4679c1733fff2fec30dfe9a4deb181f0cff2b44409989b",
+    "source_bytes": 569206,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00353.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "87806e74882fe6bfebed9518227b70b777e78eaab31ab703913ba052f0215d59",
+    "source_bytes": 591048,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00369.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "ce802c9898ee0b92fd46e176fae2b3544f67922da6ca87df5f6b6c58e5ccccb7",
+    "source_bytes": 804542,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00370.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_overlap",
+    "source_sha256": "7ba9492d277e91569d70662bb262e66a7c1e71786b491fe813da15797df6d70a",
+    "source_bytes": 896010,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00380.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "8a01ad19b869dead5af9e406713b0a7c48f8c9b5fa0c041abfb854fa0264c046",
+    "source_bytes": 480724,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00381.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "97e7a259ba56c77ca577c0fefb260c7c34c29f3fab4acf1ec73b0ca7d54e08eb",
+    "source_bytes": 637043,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00382.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "cd65b137f9f12b8a42c0e789c79482547a775538dc9aae294c018e5bfbe72275",
+    "source_bytes": 571441,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00383.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "fec399c163246597910143b2f5a3af342650c4fe4e7a3706faa5eeed4add6b54",
+    "source_bytes": 499710,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00384.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "9bfe0638569c034ab6cfa311c6d28ccad15f1fdfa002285c3a9a6e942f6c4b91",
+    "source_bytes": 493358,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00389.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: TProtocolException: Negative size\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "22ea824d6e5e8d0fcfc57f71d805178153dafcffbb711446affd9cec326a8a2b",
+    "source_bytes": 659164,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00396.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "c78c636e3157d3469a47a85b10558e8dd1eaf9d884fbb7c525a569179dfa0c60",
+    "source_bytes": 784043,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00397.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "6837c152914a116a7d8dd38a1648df6abded059f05b1efce058191c951e34479",
+    "source_bytes": 87706,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00398.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "d5a58e7155f8de1e11ae43cc24d24c3dd913c7afada8d74d977aacc2a29b0523",
+    "source_bytes": 497897,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00399.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "2a8ffa4d0c5a63f8a6ff540542721ef7d7852305b28dbc87b1d0cbceb3abc454",
+    "source_bytes": 534331,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00405.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "38b76ca7c5550f38b30f7b62108178327223d883258d80045f7026fb9e4b1c40",
+    "source_bytes": 566299,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00426.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "25b449aac7611724864b97272f53618b59e45cc5ca7627a3de16e57280ab4da0",
+    "source_bytes": 836913,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00427.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "34bcfafe4e2a6a63297a331c0a94ed8dfa07b476ec53517b01b089776664c6dc",
+    "source_bytes": 832163,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00430.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: TProtocolException: Exceeded size limit\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "927e858170f70d2ef329f388f507f4d11341b2adb298d0ca3fb9270d0a2fe525",
+    "source_bytes": 986367,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00436.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "4d2bd9f3ec40d84b3eb6aad307f45bab62a0e73ea353ee8344962b188bf6d127",
+    "source_bytes": 923629,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00437.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "59825b43a568fd7b4b9a265f385299eb2b4893e56df26a88acc60129a1d87ac1",
+    "source_bytes": 1068532,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00442.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "c2aed2b531c52b7cb472f1230bf7120715c297925402a895c8fbfa0d6d6e33c9",
+    "source_bytes": 1057698,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00443.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0e\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "8622bba2808e2f2daa76cc7c9570371a778a1dab642c72b5b80160dc329e67e8",
+    "source_bytes": 1063013,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00448.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "ed2568899d21a2b9bda812e4bc5390774b76366eaa70ded676c6276ef606289b",
+    "source_bytes": 1119758,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00452.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "02945185ed2b1689028f5b22d922c74c843e45501051cedfea84951c92203f82",
+    "source_bytes": 1004367,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00471.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "6391e326b733ea22d9ef4605525696adad89527dc8181ef709e5e9b4f7e60f3f",
+    "source_bytes": 1025717,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00472.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "9c1485b5c89c3f85e1ff448e90d097492ca533c385cdfc6b73717c71f8e1fe5a",
+    "source_bytes": 1247852,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00474.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "c7400bf6b59063b4eb5b83ce1796b4c862ce74cd8bdfa5f33687f31ec0af7ec8",
+    "source_bytes": 1030813,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00485.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "efe66818cd75c36545b1da5e56b29cd445904d6bca11c1747a1da968d4077859",
+    "source_bytes": 991937,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00486.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "360c0f2f731f4d666d5a1aa9dc0817484e1f95e37c75d6f0b01c69d985c85076",
+    "source_bytes": 1020781,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00487.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "3edbc2cf73d4a8d44223e844d288ce085d1ce9e185aefd4d2fd476162327e54f",
+    "source_bytes": 1076762,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00488.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "ab4afaaccedeb118bbd7b6bad8cf77f5015ee3eeebaebd70b1d04e59e21e0b79",
+    "source_bytes": 1066572,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00493.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "b1a03c8a9bbc198d36cf4cf295af2b57813add155f6ec223f77be67109438862",
+    "source_bytes": 1132212,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00497.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: TProtocolException: Negative size\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "4faac2c647b0b4baa99ff40fcb164d92aa3938b229d4bf72656378b69ac5cb04",
+    "source_bytes": 1223044,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00502.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_overlap",
+    "source_sha256": "ee4c1a69fc1fae11a3bd6bf65ac6b6e73c05d4ecdb2e81931e831fb789a572d1",
+    "source_bytes": 1600747,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00512.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "5cbf74464fdb5d48d766c2b6cd1a7919744444620e16dfe2498b8e0a73a3e7a2",
+    "source_bytes": 1118738,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00513.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0e\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "793eeb320232b97858b7ce2f19cbd4cb1ad0019c1259aa3c889b1f5310f885f4",
+    "source_bytes": 1157632,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00514.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "e87ddb4f2387ae203508a933f74d692e8b522d1270c62c975773221f847e78b8",
+    "source_bytes": 1154997,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00515.parquet",
+    "error": "OSError('Received invalid number of bytes (corrupt data page?)')",
+    "group": "chain_overlap",
+    "source_sha256": "0315cbe50e0e4b9b531693fdd172cb9a6ede7b9811e515b4c411386e21ec46cd",
+    "source_bytes": 1178485,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00559.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "14098301727b30e8daf901529f56ef79c525917776660b560e4cd8bfe141daab",
+    "source_bytes": 808685,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part1_00560.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: don't know what type: \\x0f\\nDeserializing page header failed.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "9f21d8c026c26c4f34a001ef1225ab3705d9d7a602f94d3bcf0a394aa03a1849",
+    "source_bytes": 778227,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00015.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "c09b98f7c9d0e76134a2ba5a897288c42d2ff162aec633ce0b9fa6b855a66a38",
+    "source_bytes": 781509,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00031.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: No more data to read.\\n\")",
+    "group": "chain_overlap",
+    "source_sha256": "5e064870936efd545080e71faa73c31ed52039703fbbdd8590b94785fdea65c0",
+    "source_bytes": 1085026,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00032.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "57ee6638eebbf5b1f4e1af56c917807e17d28eda4665c2b783bb26b6d983aa73",
+    "source_bytes": 1075890,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00034.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "bc5705471467ef922589fffe05d1784e7cb69902b8ef5f9d128fce844368433d",
+    "source_bytes": 1095362,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00066.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "71b86800d0be830cc9848a8c7ae2ed156111f35201b67a9b4e025bff9dabdc30",
+    "source_bytes": 880307,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00081.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "bbf8eeddbada9aacbaa02ac1bdd686a3e324edce395e18c869c7473a50cd8b86",
+    "source_bytes": 755307,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00105.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "85243ee9092f87c601a4914664c38e61c964b3daf3b42a9ccfd913834fcb51f7",
+    "source_bytes": 928810,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00106.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "046bc18935e9f3220e0eeb90ab69b736ca1aeb5ff45abb6c7e161bea57bf5eaf",
+    "source_bytes": 874147,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00141.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_overlap",
+    "source_sha256": "b19da370accfd03354723d58e1789909387ce182d34ba2072edee53a643d68e5",
+    "source_bytes": 996109,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00151.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "ae5445926e8b8b3c40e52266cb5b8f706b60f34d3b62dee4df988f7ed0be4f76",
+    "source_bytes": 1067669,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00183.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "a93a52f3311aa8369fb082e4dfc6891be2bfe16da68c25a5e7af27434f69ba68",
+    "source_bytes": 1158606,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00203.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "70f5a05c7dbc4f65e05721861be54648ab386673d789c534caf02e2e6cc2af63",
+    "source_bytes": 1197070,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00211.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "003ff6da27fd9ad6018eacd0944f25f09217b218c39be94a4227745f5c194088",
+    "source_bytes": 1061871,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00251.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "0ca20df4e7da25672d3343df58073cef21e542b08252e9c02e052cabd2a4e1f6",
+    "source_bytes": 866099,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00252.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_overlap",
+    "source_sha256": "33ff402665271bad1be6c5d712b4a55d37e6e616c4bed974e1c58669705fab8a",
+    "source_bytes": 1011046,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00261.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "f2ccfeee0ff5a72b0c63aa2037223be6aea12003bca40cfb38b6b56f436bdd43",
+    "source_bytes": 170156,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00291.parquet",
+    "error": "ArrowInvalid('Index not in dictionary bounds')",
+    "group": "chain_overlap",
+    "source_sha256": "e6fad3c96ba11c29b409d793bb5176f697cc0a616f9807b58e424e22b9aa4a43",
+    "source_bytes": 1140751,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00329.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_overlap",
+    "source_sha256": "93cb8922067e1198eb59ff5dfdb6ad1e7bba86653fcb658bb6eb5d929d7c6668",
+    "source_bytes": 1018589,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_overlap634_v11\\trade_chunks\\part2_00350.parquet",
+    "error": "ArrowException('Unknown error: Wrapping 0x26ce9e1875867bcca9ed61b375f300a662c28c61dc2b2�7e83195b78edb5f1bd failed')",
+    "group": "chain_overlap",
+    "source_sha256": "118d16dc741f5070bca4f2197a6fe30aff7448b315b3ea78f91a2867f546b56d",
+    "source_bytes": 978666,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part1_00019.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_fallback",
+    "source_sha256": "f9a0ebeca4f985a7e2782fd730c769ec8fd3f0332fb649766756bcfdbb08aca8",
+    "source_bytes": 3283660,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part1_00029.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_fallback",
+    "source_sha256": "df57a1d55d1bd1746c426a8cdb431cf447c41b1aeff295d408801c7c25a71581",
+    "source_bytes": 11674389,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part2_00128.parquet",
+    "error": "ArrowInvalid('Parquet magic bytes not found in footer. Either the file is corrupted or this is not a parquet file.')",
+    "group": "chain_fallback",
+    "source_sha256": "8117f8f36132848c21e0378c2ac0d978de5fff4b35c8d19641d14df3178b90fe",
+    "source_bytes": 289220,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part2_00202.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_fallback",
+    "source_sha256": "bd70d80bac2b1d0822aba1920e998a19a3609cf2b27ed46fc4d85bd9916b434c",
+    "source_bytes": 544547,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part2_00409.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_fallback",
+    "source_sha256": "896e8b107c1aeaf83fa4dec262626fba56648c62349f75f674e78d304346328e",
+    "source_bytes": 500792,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part2_00506.parquet",
+    "error": "OSError('ZSTD decompression failed: Src size is incorrect')",
+    "group": "chain_fallback",
+    "source_sha256": "bbe52c8b14eed6eac6444afc4bb113a46a6ef217b58e1b94b172ae2f0b7c6747",
+    "source_bytes": 290539,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\cherry_minute_source_v11\\trade_chunks\\part2_00531.parquet",
+    "error": "OSError('ZSTD decompression failed: Data corruption detected')",
+    "group": "chain_fallback",
+    "source_sha256": "014a1d152ba73eecca393697952dfdbf2363cd1719993cf705fde9b3df72bef8",
+    "source_bytes": 338310,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\raw_expansion_v5_20260923\\raw_recovery\\trade_chunks\\part1_00092.parquet",
+    "error": "OSError('Unexpected end of stream')",
+    "group": "chain_expansion",
+    "source_sha256": "fee073226ba03e9ee195ba28d1b1099739be2f081915a46a8d7a88adb2c3677d",
+    "source_bytes": 1024063,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\market5000_expansion_v9_20260923\\condition_trades\\558934\\page_00000.parquet",
+    "error": "OSError(\"Couldn't deserialize thrift: invalid TType\\n\")",
+    "group": "api_scoped_contract_558934",
+    "source_sha256": "76feab6ed03172bcd3050426b692f2eae7d0165f56b6fa10f0f5d10c8e2e1965",
+    "source_bytes": 26835,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\market5000_expansion_v9_20260923\\condition_trades\\558934\\page_00002.parquet",
+    "error": "OSError('Corrupt snappy compressed data.')",
+    "group": "api_scoped_contract_558934",
+    "source_sha256": "6517888cd0ac7a3630b043bfab19cbe6ada0451e37f5b7787fd1a2ac218cc0e6",
+    "source_bytes": 77209,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\market5000_expansion_v9_20260923\\condition_trades\\558934\\page_00003.parquet",
+    "error": "OSError('Corrupt snappy compressed data.')",
+    "group": "api_scoped_contract_558934",
+    "source_sha256": "f26e1c5893e595d345ce7cd44d6a6fd6cbfef889cfb6c579e18a87bd0853e789",
+    "source_bytes": 75731,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\market5000_expansion_v9_20260923\\condition_trades\\558934\\page_00004.parquet",
+    "error": "OSError('Corrupt snappy compressed data.')",
+    "group": "api_scoped_contract_558934",
+    "source_sha256": "898f7f5305c50502a4dbb36ae08b14ebc919071bc7085cc383c00e9aff1f2a54",
+    "source_bytes": 78920,
+    "readable_batches_before_failure_may_be_retained": true
+  },
+  {
+    "path": "outputs\\market5000_expansion_v9_20260923\\condition_trades\\558934\\page_00011.parquet",
+    "error": "OSError('Corrupt snappy compressed data.')",
+    "group": "api_scoped_contract_558934",
+    "source_sha256": "b46f6e765dc6dd34250927af53d0a2d379c056def3644f102ff338a0790f48ac",
+    "source_bytes": 81458,
+    "readable_batches_before_failure_may_be_retained": true
+  }
+]

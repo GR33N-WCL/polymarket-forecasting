@@ -1,0 +1,9 @@
+# Historical strict local inference environment. Install matching CUDA torch separately.
+transformers==4.37.2
+tokenizers==0.15.2
+tiktoken==0.7.0
+bitsandbytes==0.48.1
+accelerate
+einops
+transformers_stream_generator
+sentencepiece

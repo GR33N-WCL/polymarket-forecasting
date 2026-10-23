@@ -1,0 +1,136 @@
+{
+  "horizons": [
+    1,
+    5,
+    15,
+    30,
+    60,
+    180,
+    360,
+    1440
+  ],
+  "lambda": 0.25,
+  "tolerance": 1e-08,
+  "units": [
+    {
+      "model": "Self-Ridge",
+      "seed": 0,
+      "file": "raw/Self-Ridge_0.npz"
+    },
+    {
+      "model": "AutoARIMA",
+      "seed": 0,
+      "file": "raw/AutoARIMA_0.npz"
+    },
+    {
+      "model": "LightGBM",
+      "seed": 0,
+      "file": "raw/LightGBM_0.npz"
+    },
+    {
+      "model": "LSTM",
+      "seed": 13,
+      "file": "raw/LSTM_13.npz"
+    },
+    {
+      "model": "LSTM",
+      "seed": 37,
+      "file": "raw/LSTM_37.npz"
+    },
+    {
+      "model": "LSTM",
+      "seed": 73,
+      "file": "raw/LSTM_73.npz"
+    },
+    {
+      "model": "LSTM",
+      "seed": 101,
+      "file": "raw/LSTM_101.npz"
+    },
+    {
+      "model": "LSTM",
+      "seed": 137,
+      "file": "raw/LSTM_137.npz"
+    },
+    {
+      "model": "DLinear",
+      "seed": 13,
+      "file": "raw/DLinear_13.npz"
+    },
+    {
+      "model": "DLinear",
+      "seed": 37,
+      "file": "raw/DLinear_37.npz"
+    },
+    {
+      "model": "DLinear",
+      "seed": 73,
+      "file": "raw/DLinear_73.npz"
+    },
+    {
+      "model": "DLinear",
+      "seed": 101,
+      "file": "raw/DLinear_101.npz"
+    },
+    {
+      "model": "DLinear",
+      "seed": 137,
+      "file": "raw/DLinear_137.npz"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 13,
+      "file": "raw/PatchTST_13.npz"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 37,
+      "file": "raw/PatchTST_37.npz"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 73,
+      "file": "raw/PatchTST_73.npz"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 101,
+      "file": "raw/PatchTST_101.npz"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 137,
+      "file": "raw/PatchTST_137.npz"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 13,
+      "file": "raw/iTransformer_13.npz"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 37,
+      "file": "raw/iTransformer_37.npz"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 73,
+      "file": "raw/iTransformer_73.npz"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 101,
+      "file": "raw/iTransformer_101.npz"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 137,
+      "file": "raw/iTransformer_137.npz"
+    },
+    {
+      "model": "Chronos-2",
+      "seed": 0,
+      "file": "raw/Chronos-2_0.npz"
+    }
+  ]
+}

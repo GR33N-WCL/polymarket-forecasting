@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_current_and_valid_targets": 553620,
+  "max_price_error": 0.0,
+  "invalid_history_rows_excluded": 8,
+  "semantic_slots": 71508,
+  "semantic_message_max_error": 4.440892098500626e-16,
+  "scope": "replay at frozen origins; does not rerun historical event discovery or select new origins"
+}

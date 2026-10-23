@@ -1,0 +1,269 @@
+{
+  "status": "frozen_source_anomalies_disclosed_not_cleaned",
+  "inherited_timestamp_anomalies": [
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "available_at": 1777322520,
+      "last_trade_timestamp": 1777327686,
+      "price": 0.08
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "available_at": 1777219680,
+      "last_trade_timestamp": 1777268606,
+      "price": 0.3399999632799966
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1776884160,
+      "last_trade_timestamp": 1776914895,
+      "price": 0.23000000165196666
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1776945000,
+      "last_trade_timestamp": 1776945093,
+      "price": 0.18
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1776990300,
+      "last_trade_timestamp": 1776999754,
+      "price": 0.1700000033200013
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1777032420,
+      "last_trade_timestamp": 1777054480,
+      "price": 0.19000000226800007
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1777163700,
+      "last_trade_timestamp": 1777172075,
+      "price": 0.13000000202325812
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1777176840,
+      "last_trade_timestamp": 1777202152,
+      "price": 0.13000013050003267
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1777186200,
+      "last_trade_timestamp": 1777196281,
+      "price": 0.13999998879999978
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "available_at": 1777388760,
+      "last_trade_timestamp": 1777391368,
+      "price": 0.2
+    }
+  ],
+  "valid_current_or_scored_target_uses_of_anomalies": 0,
+  "queries": [
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 0,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 1,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 5,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 15,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 30,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 60,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 180,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 360,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051642",
+      "horizon": 1440,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 0,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 1,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 5,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 15,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 30,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 60,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 180,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 360,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "406200",
+      "market_id": "2051643",
+      "horizon": 1440,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 0,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 1,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 5,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 15,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 30,
+      "any_query_hits": 1,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 60,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 180,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 360,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    },
+    {
+      "event_id": "407225",
+      "market_id": "2054133",
+      "horizon": 1440,
+      "any_query_hits": 0,
+      "valid_scored_uses": 0
+    }
+  ],
+  "training_context_effect_not_tested": true,
+  "note": "Retain exact frozen histories. Do not silently repair values or infer that all source data are clean. A cleaning/retraining experiment would be a separate version."
+}

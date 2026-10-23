@@ -1,0 +1,307 @@
+{
+  "task": "All eight non-LLM price predictors, unified attribution recomputation",
+  "models": [
+    "Self-Ridge",
+    "AutoARIMA",
+    "LightGBM",
+    "LSTM",
+    "DLinear",
+    "PatchTST",
+    "iTransformer",
+    "Chronos-2"
+  ],
+  "units": [
+    {
+      "model": "Self-Ridge",
+      "seed": 0,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\Self-Ridge_0.npz",
+      "sha256": "c8adbcb9ab445aeb9acfbc5de6169b51664edd33d82d6e2bc0edd1c118436445"
+    },
+    {
+      "model": "AutoARIMA",
+      "seed": 0,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\AutoARIMA_0.npz",
+      "sha256": "20e6f1029ce6c608d476587be5a07130b5ed73881693e4341e592d9f7c9f23d7"
+    },
+    {
+      "model": "LightGBM",
+      "seed": 0,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\LightGBM_0.npz",
+      "sha256": "2a8a68688eb06c5b3f131060d8ff4250121689bdd214b26a710799043d6d8699"
+    },
+    {
+      "model": "LSTM",
+      "seed": 13,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\LSTM_13.npz",
+      "sha256": "b76ea54505c7d3530ff2e289ff9a1d9855a094e3ca2c3f60300c180a9181c4ef"
+    },
+    {
+      "model": "LSTM",
+      "seed": 37,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\LSTM_37.npz",
+      "sha256": "a7a75c8ae3e6985a90df1b45844d2838fbb39c4ec8109173435c950d53651d86"
+    },
+    {
+      "model": "LSTM",
+      "seed": 73,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\LSTM_73.npz",
+      "sha256": "7ddbe4a3aa2b5e8d73d4f767e3f3b1de4402bb1b9f62f090cc26766f843eedf8"
+    },
+    {
+      "model": "LSTM",
+      "seed": 101,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\LSTM_101.npz",
+      "sha256": "2e4ed0bb8476f2c691b2860f63e2a139907c1d24a2ab1b385873462d4160bfd8"
+    },
+    {
+      "model": "LSTM",
+      "seed": 137,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\LSTM_137.npz",
+      "sha256": "19306dfa5c81b2dde91c10748a9027dc911dd089fe4aa960bffb6eb0c3d724c8"
+    },
+    {
+      "model": "DLinear",
+      "seed": 13,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\DLinear_13.npz",
+      "sha256": "5e59ea6ebdfb3e698f914aba3986577515a9b0db0616bca16999ebdb2632e631"
+    },
+    {
+      "model": "DLinear",
+      "seed": 37,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\DLinear_37.npz",
+      "sha256": "43171e4c8f839a0dc4c10bea70f8a4fcf57c8425d1e7c77383d5c442c61853e0"
+    },
+    {
+      "model": "DLinear",
+      "seed": 73,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\DLinear_73.npz",
+      "sha256": "cf42c9f08fd674849ee4d5dbabcf09d5e2d7864b4e17fa31215f383537dbd364"
+    },
+    {
+      "model": "DLinear",
+      "seed": 101,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\DLinear_101.npz",
+      "sha256": "fbcf79454fb66d44a1112ca635cade158eaf856a98a21b82b02e429c61f9e013"
+    },
+    {
+      "model": "DLinear",
+      "seed": 137,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\DLinear_137.npz",
+      "sha256": "ed6b215c3a36357d622f3478f74e50926ca68a1124942674bee686876ecd0ff1"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 13,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\PatchTST_13.npz",
+      "sha256": "29b1a5372498badcc0636cb9245bda5bdd99aa05ad79dc06e585cb31d86ac69e"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 37,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\PatchTST_37.npz",
+      "sha256": "619047a48453029655f186eb5bcee1b3a06f324f8d456d336accb63d0bcfad12"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 73,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\PatchTST_73.npz",
+      "sha256": "6bfd323bae477a496a64cb62e9fdcc1c22b76f4ecd84b530770973fd444bd271"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 101,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\PatchTST_101.npz",
+      "sha256": "a929e57d7b3be8aafc55161ae887900c32987d9333b0354dba52d5b0270036b4"
+    },
+    {
+      "model": "PatchTST",
+      "seed": 137,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\PatchTST_137.npz",
+      "sha256": "ca981daa92c220f23d8c251420ebc253b277ec94276a17946055d02997cc0196"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 13,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\iTransformer_13.npz",
+      "sha256": "f55cc64d97cce4e406e613da87a0d4640b51a2d28dd0f0ae7d6cfc36facf756e"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 37,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\iTransformer_37.npz",
+      "sha256": "7fedd4d3dc5ff0f68de96b151817640088978770d2e95a70358ef74dc9a439c6"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 73,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\iTransformer_73.npz",
+      "sha256": "2862dbd6bdba6e646c5afd24214a25b32ae5d08015d5d01dde180465dd2ea3d1"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 101,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\iTransformer_101.npz",
+      "sha256": "0f4fcf4e3ae4a2e420655e204d12ed828ee6069a2af0fd405d72470988c7b375"
+    },
+    {
+      "model": "iTransformer",
+      "seed": 137,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\iTransformer_137.npz",
+      "sha256": "63dc27d446da6271b2d920ff948d22630af5c165cbf78282906f398852e527bd"
+    },
+    {
+      "model": "Chronos-2",
+      "seed": 0,
+      "file": "D:\\polymarket_attribution8_20261020\\source\\Chronos-2_0.npz",
+      "sha256": "258126dc4788da170a03317e20d67c5d970d689f8d4f4f8c74155a3c04bd1036"
+    }
+  ],
+  "horizons": [
+    1,
+    5,
+    15,
+    30,
+    60,
+    180,
+    360,
+    1440
+  ],
+  "input_rows": 183077,
+  "roster_events": 303,
+  "lambda": 0.25,
+  "sampling": "Unchanged frozen 303-event full cohort; no outcome-based selection",
+  "support": "Per-horizon common genuine outputs of all 24 model-seed units, complete joint constraint-vector closure, intersect original common scoring mask and finite targets",
+  "scoring": "Contracts within vid, then vids within original scoring component, then components equally; seed losses average within model, eight models equally",
+  "controls": "Raw, semantic, logic, full; matched zero-neighbor; reversed messages; ten column-permuted relation controls; past-only untyped smoothing; single-relation and leave-one-relation-out on shared-constraint support; five past-only generic post-processors then Full",
+  "permutation_seeds": [
+    13,
+    37,
+    73,
+    101,
+    137,
+    173,
+    211,
+    251,
+    293,
+    337
+  ],
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 13,
+    "block": "event graph group",
+    "paired": true
+  },
+  "calibration": "Same genuine-output training/validation rows across all 24 units; fit past30-to10 days, selection past10 days; mature labels t+h*60+60 before cutoff; minimum20 fit and20 select; identical original grids",
+  "consistency_scope": "Complete common contexts having at least one primary scored target at the given horizon",
+  "completeness_scope": "Common primary targets in systems having overlapping logical relations; loss averaged equally over predeclared relation omissions, not prediction averaging",
+  "conflict_bands": "Raw constraint residual, thresholds from positive complete common-context violations in prior30days; ternary quantiles if >=30 else .001/.01, violation tolerance1e-8",
+  "contribution": "Signed stagewise deltas and two-module average-marginal/Shapley decomposition; no causal or neighbor-information identification from module deltas alone",
+  "input_hashes": {
+    "answers.parquet": "c412646ddf29f5a317fadcc962ab12ea6081f07635264966b76e84d9633cebf0",
+    "systems.json": "2632a03131e77b8d8a9a90ee594400cbe252b3507fcdaa4ec49aac43deec2b0d",
+    "neighbor_messages.npz": "aee7553e9324bfba7f86ef5d9e8078489132c967a1646dd520faec92ba847e04",
+    "baseline_common_success_mask.npy": "1b360f28b979fced5429fe3ade5a5697af90069b0badc2cdf3b093a3df20443c"
+  },
+  "helper_hashes": {
+    "numerics.py": "18f025fdef0b2941d54fd5816d46aeb7d9e1b7db053727eec9b0e9052039aaa3",
+    "graph_ops.py": "f9ead52d5f2a647de8dd1bcaa99c28a0c8a74d5ad61fb853138929c8f5e5e77a",
+    "controls.py": "93898fccafc80459e7c96998bb16b4785976f66059c58cffbef57c50d487e55f",
+    "run_unit.py": "53c470dc26b80100bd64d76bc15ab04831b81566567b15faca07579d4148cf45"
+  },
+  "coverage": [
+    {
+      "horizon": 1,
+      "n": 36999,
+      "events": 154,
+      "contracts": 1064,
+      "vids": 20593,
+      "components": 151,
+      "graph_groups": 35,
+      "before_context_closure": 40091,
+      "previous_five_model_support": 40432
+    },
+    {
+      "horizon": 5,
+      "n": 57848,
+      "events": 147,
+      "contracts": 1096,
+      "vids": 31876,
+      "components": 144,
+      "graph_groups": 30,
+      "before_context_closure": 64763,
+      "previous_five_model_support": 64763
+    },
+    {
+      "horizon": 15,
+      "n": 50247,
+      "events": 143,
+      "contracts": 985,
+      "vids": 28694,
+      "components": 139,
+      "graph_groups": 30,
+      "before_context_closure": 55657,
+      "previous_five_model_support": 55657
+    },
+    {
+      "horizon": 30,
+      "n": 24298,
+      "events": 130,
+      "contracts": 828,
+      "vids": 15379,
+      "components": 128,
+      "graph_groups": 29,
+      "before_context_closure": 26389,
+      "previous_five_model_support": 26421
+    },
+    {
+      "horizon": 60,
+      "n": 21810,
+      "events": 123,
+      "contracts": 763,
+      "vids": 13883,
+      "components": 117,
+      "graph_groups": 29,
+      "before_context_closure": 23395,
+      "previous_five_model_support": 23635
+    },
+    {
+      "horizon": 180,
+      "n": 17124,
+      "events": 108,
+      "contracts": 690,
+      "vids": 11779,
+      "components": 105,
+      "graph_groups": 27,
+      "before_context_closure": 18222,
+      "previous_five_model_support": 18731
+    },
+    {
+      "horizon": 360,
+      "n": 15025,
+      "events": 101,
+      "contracts": 650,
+      "vids": 10425,
+      "components": 98,
+      "graph_groups": 27,
+      "before_context_closure": 16097,
+      "previous_five_model_support": 16485
+    },
+    {
+      "horizon": 1440,
+      "n": 9956,
+      "events": 71,
+      "contracts": 458,
+      "vids": 7020,
+      "components": 70,
+      "graph_groups": 24,
+      "before_context_closure": 10510,
+      "previous_five_model_support": 10936
+    }
+  ],
+  "support_sha256": "e9848ed19c840d429fe573b7095080b9cecbbde6ab0107df6b993cc98c5186d5",
+  "created_at": 1792549839.1835349,
+  "retrain_base_models": false,
+  "llm_included": false,
+  "persistence_included": false,
+  "independent_test": false
+}

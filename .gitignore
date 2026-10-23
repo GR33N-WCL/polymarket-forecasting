@@ -1,0 +1,11 @@
+data/
+runs/
+third_party/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.pt
+*.safetensors
+*.tar.gz
+.env

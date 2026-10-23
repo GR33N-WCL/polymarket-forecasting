@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-16",
+  "method": "async_semantic520_v1_20261015",
+  "fixed_lambda": 0.25,
+  "old_ridge_used": false,
+  "panels": [
+    "common_subset",
+    "full"
+  ],
+  "models": [
+    [
+      "Persistence",
+      0
+    ],
+    [
+      "Self-Ridge",
+      0
+    ],
+    [
+      "LSTM",
+      13
+    ],
+    [
+      "LSTM",
+      37
+    ],
+    [
+      "LSTM",
+      73
+    ],
+    [
+      "LSTM",
+      101
+    ],
+    [
+      "LSTM",
+      137
+    ],
+    [
+      "DLinear",
+      13
+    ],
+    [
+      "DLinear",
+      37
+    ],
+    [
+      "DLinear",
+      73
+    ],
+    [
+      "DLinear",
+      101
+    ],
+    [
+      "DLinear",
+      137
+    ],
+    [
+      "PatchTST",
+      13
+    ],
+    [
+      "PatchTST",
+      37
+    ],
+    [
+      "PatchTST",
+      73
+    ],
+    [
+      "PatchTST",
+      101
+    ],
+    [
+      "PatchTST",
+      137
+    ],
+    [
+      "iTransformer",
+      13
+    ],
+    [
+      "iTransformer",
+      37
+    ],
+    [
+      "iTransformer",
+      73
+    ],
+    [
+      "iTransformer",
+      101
+    ],
+    [
+      "iTransformer",
+      137
+    ]
+  ],
+  "horizons": [
+    1,
+    5,
+    15,
+    30,
+    60,
+    180,
+    360,
+    1440
+  ],
+  "scoring": "contract -> vid -> original component; common successful-output support across all models and seeds plus own support",
+  "fallback": "Excluded from scoring and semantic mix; original full logical systems retained",
+  "controls": "ZeroNeighbor, AllPositive, 10 PermutedSign with same coverage and mixture strength",
+  "frozen_method_hash": "000a36cf6be4886cd2f6a1f52dc9fe31587fbdf83a1221ffa5b66f44d9500297",
+  "script_hashes": {
+    "evaluate.py": "de9546c7f90356d2b3de0a8c0202a08ee3be277cce00711f544fe4bb5656b887",
+    "features_full.py": "542ae13f7d97afeb87aabbf85b920a4663d607fd8e53ef25f4d6466be6ec1001",
+    "async_features.py": "8e58d54e4bc70c3ee5458027e466c4b04a23410232b8b456d05b28ea714c8d06",
+    "frozen_method.py": "a60f60db6245f24d49bf6f070e238a02ec717ac7ac042bcecd4c60dbe5d92c7e"
+  },
+  "old_outputs": "preserved",
+  "new_inference": false,
+  "terminal": "not included: price-output graph method only, terminal evidence unchanged",
+  "dataset": "374-event historical development dataset; source version disclosed"
+}

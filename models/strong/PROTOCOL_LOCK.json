@@ -1,0 +1,97 @@
+{
+  "evaluation": "Complete frozen 303-event roster; primary original six-model common genuine support, separately matched to LLM sample",
+  "training": "Original full 198449-row past-window pool used by frozen neural baselines; evaluation restricts 303-event roster",
+  "horizons": [
+    1,
+    5,
+    15,
+    30,
+    60,
+    180,
+    360,
+    1440
+  ],
+  "seed": 13,
+  "history_steps": 72,
+  "history_step_minutes": 5,
+  "targets": "Unchanged true future prices and frozen completeness/freshness masks",
+  "time_split": "For evaluation month T: train [T-90d,T-30d), validate [T-30d,T); train/val label origin+h*60+60 < window end",
+  "lightgbm": {
+    "parameterization": "current exact price plus forecast change",
+    "features": "72 current-centered prices, 71 first differences, exact current price, trailing mean/std/min/max over 3/12/36/72 points",
+    "grid": [
+      {
+        "num_leaves": 7,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 7,
+        "min_child_samples": 80
+      },
+      {
+        "num_leaves": 15,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 15,
+        "min_child_samples": 80
+      },
+      {
+        "num_leaves": 31,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 31,
+        "min_child_samples": 80
+      }
+    ],
+    "learning_rate": 0.03,
+    "max_estimators": 1000,
+    "early_stopping_rounds": 50,
+    "reg_lambda": 0.1,
+    "minimum_train_rows": 50,
+    "minimum_validation_rows": 20,
+    "selection": "per horizon past validation hierarchical MSE; no train+validation refit after selection",
+    "training_weights": "original contract-within-vid, vid-within-component, equal components"
+  },
+  "autoarima": {
+    "library": "pmdarima 2.1.1",
+    "seasonal": false,
+    "max_p": 3,
+    "max_q": 3,
+    "max_order": 5,
+    "max_d": 2,
+    "stepwise": true,
+    "nmodels": 40,
+    "ic": "aicc",
+    "approximation": false,
+    "allowdrift": true,
+    "allowmean": true,
+    "fit": "independent fixed 72-point window at each origin; no future labels",
+    "method": "lbfgs",
+    "maxiter": 50,
+    "with_intercept": "auto",
+    "optimizer_convergence": "record optimizer convergence separately from finite forecast availability"
+  },
+  "chronos2": {
+    "repo": "amazon/chronos-2",
+    "revision": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "mode": "zero-shot univariate",
+    "cross_learning": false,
+    "point": "author API default median (q=.5), not called an expected mean",
+    "prediction_length": 288,
+    "context_length": 72,
+    "dtype": "float32",
+    "no_finetuning": true,
+    "pretraining_time_caveat": "pretrained model released after some retrospective evaluation dates; not a contemporaneously available model for all dates"
+  },
+  "grid_mapping": "AutoARIMA/Chronos: h>=5 use exact 5-minute step; h=1 linear interpolate current exact price and next 5-minute model forecast. LightGBM direct all eight horizons.",
+  "postprocessing": "unchanged support-gated semantic p0+.75*(z-p0)+.25*m, clipped [0,1], then identical complete-vector joint Euclidean logical projection",
+  "failure": "No current-price fallback; nonfinite/failed predictions explicitly missing; incomplete logical vectors excluded, shared comparison support reaggregated",
+  "scoring": "original contract -> vid -> original component equal weights, horizon-specific supports; no graph group substitution",
+  "inference_dedup": "identical numeric histories may reuse identical univariate forecasts, with exact inverse mapping, independent of targets",
+  "overleaf_update": false,
+  "created_at": 1792375413.4976256,
+  "autoarima_window_preprocessing": "Before fitting, subtract window mean and divide by window standard deviation (1 for constant window); invert affine transform before clipping. Uses only the unchanged 72 history values.",
+  "autoarima_numerical_recovery": "For nonfinite primary forecasts, rerun identical stepwise search with return_valid_fits; choose first finite 288-step forecast in AICc order. If none, same grid with Powell maxiter200. No labels used, no current-price fill. Preserve original successful predictions and original candidate file; save separately finalized array."
+}
